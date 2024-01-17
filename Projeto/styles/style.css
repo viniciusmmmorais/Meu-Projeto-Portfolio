@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+body {
+    /* height: 100vh; */
+    background-color: #2C3639;
+    color: #DCD7C9;
+}
+
+.cabecalho {
+    background: #3F4E4F;
+    height: 5vh;
+    padding: 2% 0% 0% 0%;
+}
+
+.cabecalho__menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+    
+}
+.cabecalho__menu__link {
+    font-family: 'Krona One', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #DCD7C9;
+    text-decoration: none;
+}
+.apresentacao {
+    margin: 5% 35%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.apresentacao__conteudo {
+    width: 615px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+}
+.apresentacao__conteudo__titulo { 
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Krona One', sans-serif;
+}
+.apresentacao__conteudo__texto {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    
+    
+}
+.apresentacao__link {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+.apresentacao__botao {
+    /* background-color: #DCD7C9; */
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    border: 2px solid #DCD7C9;
+    width: 378px;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 18px;
+    padding: 25px 0;
+    text-decoration: none;
+    color: #DCD7C9;
+    font-family: 'Krona One',sans-serif;
+    /* font-weight: 400; */
+}
+.apresentacao__botao:hover {
+    background-color: #3F4E4F;
+}
+.apresentacao__redes__sociais {
+    font-family: 'Krona One', sans-serif;
+    font-size: 17px;
+    
+    color: #DCD7C9;
+    font-weight: 400;
+}
+.rodape {
+    padding: 30px; 
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+    color: #DCD7C9;
+    background-color: #3F4E4F;
+    font-family: 'Krona One', sans-serif;
+    font-size: 20px;
+    /* text-align: center; */
+
+}
+
+
+
+
+
+
+
+
+
+
